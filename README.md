@@ -1,46 +1,53 @@
-# GeoGuessr.ai Coach - An Exploration into Modern GeoGuessr AI
+# GeoGuessr AI Coach: The Ultimate AI for GeoGuessr Training
 
 <p align="center">
   <a href="https://geoguessr.ai" target="_blank">
-    <img src="https://geoguessr.ai/og-image.webp" alt="GeoGuessr.ai Banner - The AI Coach for GeoGuessr">
+    <img src="https://geoguessr.ai/og-image.webp" alt="GeoGuessr.ai Banner - An AI Coach for GeoGuessr and GeoGuesser">
   </a>
 </p>
 
 <p align="center">
-  This repository serves as a deep dive and technical companion to <a href="https://geoguessr.ai" target="_blank"><strong>GeoGuessr.ai</strong></a>, a modern AI Coach for GeoGuessr. It is forked from the foundational <strong><a href="https://github.com/shokiami/GeoKnowr">GeoKnowr</a></strong> project, and this document has been updated to reflect the evolution of GeoGuessr AI technology.
+  This is the official companion repository for <a href="https://geoguessr.ai" target="_blank"><strong>GeoGuessr.ai</strong></a>, the ultimate **GeoGuessr AI Coach**. Whether you spell it "GeoGuessr" or "GeoGuesser," our tool is designed to help you master the game. This document provides a deep dive into the philosophy and technology behind our **AI for GeoGuessr**, demonstrating how we've built more than just a solver—we've built a learning platform.
 </p>
 
 ---
 
-## The Evolution of a Challenge: From "Solver" to "Coach"
+## Our Mission: An AI GeoGuessr Coach, Not a Cheater
 
-The original goal, as pioneered by projects like **GeoKnowr**, was a monumental task: could a computer vision model be trained to guess a GeoGuessr location? The work done by Sho Kiami and Zach Chapman, detailed below, was a fantastic exploration into solving this problem using transfer learning and a classification-based approach.
+Many have tried to build a `geoguessr ai bot` or a `geoguessr ai solver`. While technically interesting, these tools often miss the point of the game. The real challenge, and our core mission, is to create a **GeoGuessr AI** that acts as a **coach**.
 
-However, the AI landscape has shifted dramatically. The challenge is no longer just about *finding the location*, but about *understanding it*. The modern goal, and the one we champion at **GeoGuessr.ai**, is to build an AI that acts as a **coach**, not a cheater.
+Our system explains the **"why"**, not just the **"where"**. It performs a detailed **geoguessr picture analysis**, teaching you to think like a pro player by weighing evidence and identifying the decisive clues that turn a guess into an expert deduction.
 
-Our system explains the **"why"**, not just the **"where"**. It thinks like a pro player, weighing evidence and identifying the decisive clues that turn a guess into an expert deduction.
+## The Technology: How Our GeoGuessr AI Works
 
-## The Modern Approach: Prompt Engineering on State-of-the-Art Models
+Our approach at **GeoGuessr.ai** leverages advanced **prompt engineering** on state-of-the-art vision models like **Google's Gemini 2.5 Pro** and **OpenAI's o3**.
 
-While the original GeoKnowr focused on training a specialized ResNet-18 model on a custom dataset, our approach at **GeoGuessr.ai** leverages advanced **prompt engineering** on state-of-the-art vision models like **Google's Gemini 2.5 Pro** and **OpenAI's o3**.
+The core of our "secret sauce" is a structured reasoning prompt that forces the AI to systematically identify and weigh clues. This includes everything from basic country identification to advanced **learnable meta**.
 
-The core of our "secret sauce" is a structured, multi-step reasoning prompt that forces the AI to:
-1.  **Systematically Identify Clues:** Break down the image into pro-level categories (Meta Clues, Infrastructure, Language).
-2.  **Weigh Evidence:** Assign higher importance to "smoking gun" clues (like a Polish bollard) over generic ones.
-3.  **Synthesize and Explain:** Present its reasoning in a clear, human-readable report, turning every analysis into a learning opportunity.
+### Want to Learn the Meta?
+Our AI is an expert in all the key **GeoGuessr metas**, including:
+*   **Bollards:** Analyzing the shape and color of **geoguessr bollards**.
+*   **Road Lines:** Understanding the **geoguessr road lines meta**.
+*   **Car Metas:** Identifying country-specific Google cars.
+*   **Camera Generations:** And many more advanced techniques.
 
-### Try the Live Implementation:
+Our blog contains the ultimate **geoguessr meta guide** to help you on your journey.
 
-This new, coaching-focused philosophy is live and accessible to everyone.
+## Standing on the Shoulders of Giants: A Nod to the Community
 
-**➡️ [Experience the AI Coach at GeoGuessr.ai](https://geoguessr.ai)**
-*(3 free analyses per day, no signup required)*
+The **GeoGuessr AI** space has a rich history. We'd like to give a massive shout-out to the open-source pioneers who paved the way:
+*   **[shokiami/GeoKnowr](https://github.com/shokiami/GeoKnowr)**
+*   **[Stelath/geoguessr-ai](https://github.com/Stelath/geoguessr-ai)**
 
----
+These projects were foundational in demonstrating the potential of an **AI for GeoGuessr**, and we are proud to build upon their legacy with a focus on coaching and learning.
 
-## Original GeoKnowr Project Documentation (A Nod to the Pioneers)
+## Try the Best GeoGuessr AI Coach
 
-The following sections are the original, preserved `README.md` from the GeoKnowr project. It's a valuable look into the foundational challenges and methodologies that paved the way for modern tools. We are immensely grateful for their open-source contribution to the community.
+Experience the power of a true AI training partner.
+
+**➡️ [Try the Live Demo at GeoGuessr.ai](https://geoguessr.ai)**
+
+We offer 3 free analyses per day. See for yourself how our **AI GeoGuesser** tool can transform your gameplay.
 
 ---
 
