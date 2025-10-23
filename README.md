@@ -1,3 +1,49 @@
+# GeoGuessr.ai Coach - An Exploration into Modern GeoGuessr AI
+
+<p align="center">
+  <a href="https://geoguessr.ai" target="_blank">
+    <img src="https://geoguessr.ai/og-image.webp" alt="GeoGuessr.ai Banner - The AI Coach for GeoGuessr">
+  </a>
+</p>
+
+<p align="center">
+  This repository serves as a deep dive and technical companion to <a href="https://geoguessr.ai" target="_blank"><strong>GeoGuessr.ai</strong></a>, a modern AI Coach for GeoGuessr. It is forked from the foundational <strong><a href="https://github.com/shokiami/GeoKnowr">GeoKnowr</a></strong> project, and this document has been updated to reflect the evolution of GeoGuessr AI technology.
+</p>
+
+---
+
+## The Evolution of a Challenge: From "Solver" to "Coach"
+
+The original goal, as pioneered by projects like **GeoKnowr**, was a monumental task: could a computer vision model be trained to guess a GeoGuessr location? The work done by Sho Kiami and Zach Chapman, detailed below, was a fantastic exploration into solving this problem using transfer learning and a classification-based approach.
+
+However, the AI landscape has shifted dramatically. The challenge is no longer just about *finding the location*, but about *understanding it*. The modern goal, and the one we champion at **GeoGuessr.ai**, is to build an AI that acts as a **coach**, not a cheater.
+
+Our system explains the **"why"**, not just the **"where"**. It thinks like a pro player, weighing evidence and identifying the decisive clues that turn a guess into an expert deduction.
+
+## The Modern Approach: Prompt Engineering on State-of-the-Art Models
+
+While the original GeoKnowr focused on training a specialized ResNet-18 model on a custom dataset, our approach at **GeoGuessr.ai** leverages advanced **prompt engineering** on state-of-the-art vision models like **Google's Gemini 2.5 Pro** and **OpenAI's o3**.
+
+The core of our "secret sauce" is a structured, multi-step reasoning prompt that forces the AI to:
+1.  **Systematically Identify Clues:** Break down the image into pro-level categories (Meta Clues, Infrastructure, Language).
+2.  **Weigh Evidence:** Assign higher importance to "smoking gun" clues (like a Polish bollard) over generic ones.
+3.  **Synthesize and Explain:** Present its reasoning in a clear, human-readable report, turning every analysis into a learning opportunity.
+
+### Try the Live Implementation:
+
+This new, coaching-focused philosophy is live and accessible to everyone.
+
+**➡️ [Experience the AI Coach at GeoGuessr.ai](https://geoguessr.ai)**
+*(3 free analyses per day, no signup required)*
+
+---
+
+## Original GeoKnowr Project Documentation (A Nod to the Pioneers)
+
+The following sections are the original, preserved `README.md` from the GeoKnowr project. It's a valuable look into the foundational challenges and methodologies that paved the way for modern tools. We are immensely grateful for their open-source contribution to the community.
+
+---
+
 # GeoKnowr
 
 A lightweight GeoGuessr AI by Sho Kiami and Zach Chapman.
