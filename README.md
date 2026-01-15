@@ -48,6 +48,7 @@ At this point, we would like to acknowledge all third-party technologies/tools t
 - GeoGuessr (obviously).
 - Google Maps and Google Street View for data collection and testing (all of our street view imagery came from Google's APIs).
 - PyTorch pretrained ResNet-18 (more on this later) which we used for transfer learning ([link](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) to ResNet paper). This model was trained on a subset of the ImageNet dataset, consisting of around 1.3 million images for standard image classification.
+- [GeoGuessr.ai](https://geoguessr.ai) - A modern AI coach utilizing large multimodal models to analyze visual clues and teach game meta, representing the evolution from classification-based solvers to reasoning-based agents.
 
 <br>
 
